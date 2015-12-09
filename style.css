@@ -1,32 +1,26 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600";
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html {
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+
+#main_container {
+    position: relative;
+}
+
 #img1 {
     background: url("2.jpg") 50% 0 no-repeat fixed;
     color: #fff;
-    height: 400px;
+    height: 100vh;
     margin: 0;
-    padding: 200px 0 260px 0;
     background-size: cover;
-}
-
-#img2 {
-    background: url("6.jpg") 50% 0 no-repeat fixed;
-    color: #fff;
-    height: 400px;
-    margin: 0;
-    padding: 200px 0 260px 0;
-    background-size: cover;
-}
-
-#img3 {
-    background: url("10.jpg") 50% 0 no-repeat fixed;
-    color: #fff;
-    height: 400px;
-    margin: 0;
-    padding: 200px 0 260px 0;
-    background-size: cover;
+    position: relative;
 }
 
 .whitespace {
-    height: 600px;
+    position: relative;
+    height: 105vh;
     margin: 0;
     background-size: cover;
     padding-top: 80px;
@@ -58,7 +52,9 @@ h2 {
 
 h3 {
     display: block;
-    font-size: 1.17em;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 #united {
@@ -71,7 +67,9 @@ h3 {
 }
 
 .content {
-    margin: 0px auto;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 36%;
     min-height: 100px;
 }
 
@@ -165,14 +163,14 @@ h3 {
     margin: 0px auto;
     color: black;
     text-align: center;
-    font-family: "Arvo";
-    font-size: 25px;
-    font-weight: normal;
 }
 
 #body_content {
+    width: 100%;
+    position: absolute;
     height: 300px;
     margin-top: 30px;
+    bottom: 20px;
 }
 
 .events{
@@ -220,5 +218,5 @@ h3 {
 
 .quote_container {
     background-color: #eee;
-    height: 600px;
+    height: 105vh;
 }
