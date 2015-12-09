@@ -171,16 +171,15 @@ h3 {
 #body_content {
     width: 100%;
     position: absolute;
-    height: 500px;
-    margin-top: 30px;
-    bottom: 120px;
+    height: 40%;
+    bottom: 160px;
 }
 
 .events{
-    height: 350px;
+    height: 90%;
     width: 30%;
     float: left;
-    margin: 30px 1.5% 30px 1.5%;
+    margin: 0px 1.5% 30px 1.5%;
     border: 2px solid black;
 }
 
@@ -239,7 +238,7 @@ h3 {
 
 #excitement_container {
     background: url("108.png") no-repeat 50% 80%;
-    height: 350px;
+    height:     350px;
     color: #fff;
     width: 100%;
     -webkit-background-size: cover;
