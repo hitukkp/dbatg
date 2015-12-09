@@ -1,7 +1,7 @@
 #img1 {
     background: url("2.jpg") 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 400px;
     margin: 0;
     padding: 200px 0 260px 0;
     background-size: cover;
@@ -10,7 +10,7 @@
 #img2 {
     background: url("6.jpg") 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 400px;
     margin: 0;
     padding: 200px 0 260px 0;
     background-size: cover;
@@ -19,19 +19,17 @@
 #img3 {
     background: url("10.jpg") 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    height: 400px;
     margin: 0;
     padding: 200px 0 260px 0;
     background-size: cover;
 }
 
 .whitespace {
-    background: 50% 0 no-repeat fixed;
-    color: #fff;
     height: 600px;
     margin: 0;
-    padding: 200px 0 260px 0;
     background-size: cover;
+    padding-top: 80px;
 }
 
 body {
@@ -58,6 +56,11 @@ h2 {
     padding: 0px;
 }
 
+h3 {
+    display: block;
+    font-size: 1.17em;
+}
+
 #united {
     background: url('united.png') no-repeat;
     width: 140px;
@@ -68,7 +71,8 @@ h2 {
 }
 
 .content {
-    margin: 75px auto;
+    margin: 0px auto;
+    min-height: 100px;
 }
 
 #divider {
@@ -139,7 +143,7 @@ h2 {
 	margin-top: 5px;
 }
 
-#main_navigation li:hover { 
+#main_navigation li:hover {
 	transform: scale(1.02); 
 }
 
@@ -150,4 +154,71 @@ h2 {
     top: 20px;
     width: 50px;
     height: 80px;
+}
+
+#main_footer {
+    height: 80px;
+    background-color: #222;
+}
+
+#upcoming_events_header {
+    margin: 0px auto;
+    color: black;
+    text-align: center;
+    font-family: "Arvo";
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#body_content {
+    height: 300px;
+    margin-top: 30px;
+}
+
+.events{
+    height: 250px;
+    width: 30%;
+    float: left;
+    margin: 30px 1.5% 30px 1.5%;
+    border: 2px solid black;
+}
+
+.follow_us{
+    background: #fff;
+    padding: 0px 0 50px 0;
+    box-sizing: border-box;
+}
+
+.follow_us_header{
+    text-align: center;
+    font-size: 22px;
+}
+
+.social_icons {
+    display:table;
+    margin: 0 auto;
+    border-spacing: 20px;
+}
+
+.icon-youtube {
+    display:table-cell;
+    height: 55px;
+    width: 55px;
+    background: url("fb-icon.png") 50% 0 no-repeat ;
+    background-size: contain;
+    border-radius: 100%;
+}
+
+.icon-instagram {
+    display:table-cell;
+    height: 55px;
+    width: 55px;
+    background: url("insta-icon.png") 50% 0 no-repeat ;
+    background-size: contain;
+    border-radius: 100%;
+}
+
+.quote_container {
+    background-color: #eee;
+    height: 600px;
 }
