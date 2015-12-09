@@ -52,13 +52,14 @@ h2 {
 
 h3 {
     display: block;
-    font-family: "Open Sans",Helvetica,Arial,sans-serif;
-    font-size: 32px;
-    font-weight: 600;
+    font-family: "Wellfleet";
+    font-size: 37px;
+    font-weight: normal;
 }
 
 #united {
     background: url('united.png') no-repeat;
+    margin-top: 200px;
     width: 140px;
     height: 124px;
     margin: 0 auto;
@@ -68,9 +69,11 @@ h3 {
 
 .content {
     position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
     margin-top: 200px;
-    margin-left: 36%;
-    min-height: 100px;
 }
 
 #divider {
@@ -168,13 +171,13 @@ h3 {
 #body_content {
     width: 100%;
     position: absolute;
-    height: 300px;
+    height: 500px;
     margin-top: 30px;
-    bottom: 20px;
+    bottom: 120px;
 }
 
 .events{
-    height: 250px;
+    height: 350px;
     width: 30%;
     float: left;
     margin: 30px 1.5% 30px 1.5%;
@@ -219,4 +222,28 @@ h3 {
 .quote_container {
     background-color: #eee;
     height: 105vh;
+}
+
+.upcoming_event_quote {
+    text-align: center;
+}
+
+.quotes {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+    color: #777;
+}
+
+#excitement_container {
+    background: url("108.png") no-repeat 50% 80%;
+    height: 350px;
+    color: #fff;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
