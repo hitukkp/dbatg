@@ -57,6 +57,10 @@ h3 {
     font-weight: normal;
 }
 
+p {
+    font-family: "Arvo";
+}
+
 #united {
     background: url('united.png') no-repeat;
     margin-top: 200px;
@@ -218,9 +222,15 @@ h3 {
     border-radius: 100%;
 }
 
-.quote_container {
+.about_us_container {
     background-color: #eee;
-    height: 105vh;
+    padding: 6% 0 6% 5%;
+    position: relative;
+}
+
+#about_us_content{
+    width: 60%;
+    letter-spacing: 2px;
 }
 
 .upcoming_event_quote {
@@ -245,4 +255,20 @@ h3 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#about_us_1 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#group_image {
+    height: 450px;
+    width: 450px;
+    background: url("grp-logo.jpg") 50% 0 no-repeat ;
+    background-size: cover;
+    position: absolute;
+    right: 80px;
+    bottom: 20px;
+    top: 114px;
 }
