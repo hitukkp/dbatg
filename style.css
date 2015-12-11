@@ -224,13 +224,45 @@ p {
 
 .about_us_container {
     background-color: #eee;
-    padding: 6% 0 6% 5%;
-    position: relative;
+    padding: 2% 6% 4% 6%;
+    float: left;
+}
+
+#aout_us_header {
+    width: 65%;
+    float: left;
+}
+
+#about_us_paragraph {
+    font-size: 22px;
+    font-family: inherit;
+    font-style: italic;
+    font-weight: 300;
 }
 
 #about_us_content{
-    width: 60%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.about_us_image_container {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 30%;
+    float: left;
+}
+
+#about_us_group_image {
+    height: 400px;
+    width: 100%;
+    background: url("grp-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
 .upcoming_event_quote {
@@ -255,20 +287,5 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-#about_us_1 {
-    font-size: 25px;
-    font-weight: 100;
-}
-
-#group_image {
-    height: 450px;
-    width: 450px;
-    background: url("grp-logo.jpg") 50% 0 no-repeat ;
-    background-size: cover;
-    position: absolute;
-    right: 80px;
-    bottom: 20px;
-    top: 114px;
+    clear: both;
 }

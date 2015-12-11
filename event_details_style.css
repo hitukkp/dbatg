@@ -1,0 +1,10 @@
+#cover_container {
+	height: 600px;
+	width: 100%;
+}
+
+#event_main_cover img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
