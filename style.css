@@ -1,5 +1,6 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600";
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html {
+
+html {
     font-family:sans-serif;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
@@ -161,7 +162,7 @@ p {
     height: 80px;
 }
 
-#main_footer {
+.main_footer {
     height: 80px;
     background-color: #222;
 }

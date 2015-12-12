@@ -1,10 +1,160 @@
+@import "http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911";
+@import "http://fonts.googleapis.com/css?family=Wellfleet";
+@import "http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic";
+
+html {
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+
+body {
+	margin: 0;
+}
+
 #cover_container {
-	height: 600px;
+	height: 87%;
 	width: 100%;
+	position: relative;
 }
 
 #event_main_cover img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+}
+
+#event_title {
+	position: absolute;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	bottom: 0;
+	height: 100px;
+	width: 60%;
+	background-color: #FFF;
+}
+
+#event_date_details {
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.time_icon {
+	min-width: 6%;
+	margin-left: 25%;
+	background: url("time_icon.png") no-repeat 90% 50%;
+    height: 50px;
+    color: #fff;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    float: left;
+}
+
+.time_duration {
+	float: left;
+	max-width: 65%;
+	height:50px;
+	margin-left: 5%
+}
+
+#date_duration {
+	font-size: 22px;
+	font-weight: 100;
+}
+
+#time_duration {
+	font-size: 16px;
+	font-weight: 100;
+	color: #777;
+}
+
+#total_distance {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Goudy Bookletter 1911', serif, ;
+	float: left;
+	width: 100%;
+	color: #777;
+}
+
+h2 {
+    font-family: "Wellfleet";
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0px;
+}
+
+h3 {
+    display: block;
+    font-family: 'Goudy Bookletter 1911', serif, ;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h4 {
+    display: block;
+    font-family: 'Goudy Bookletter 1911', serif, ;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+h5 {
+    display: block;
+    font-family: 'Goudy Bookletter 1911', serif, ;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#event_content_container {
+	width: 60%;
+	margin-left: 20%;
+}
+
+#event_content {
+	padding: 5%;
+	clear: both;
+}
+
+p {
+	font-family: "Arvo";
+	font-size: 18px;
+	color: #777;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+li {
+	font-family: "Arvo";
+	font-size: 20px;
+	color: #777;
+}
+
+ul {
+	margin-top: 0px;
+}
+
+.contact_details{
+	margin-bottom: 50px;
+	padding: 0 5%
+}
+
+.main_footer {
+    height: 80px;
+    background-color: #222;
 }
