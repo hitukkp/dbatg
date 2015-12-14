@@ -13,18 +13,19 @@ html {
 #img1 {
     background: url("2.jpg") 50% 0 no-repeat fixed;
     color: #fff;
-    height: 100vh;
+    height: 600px;
     margin: 0;
     background-size: cover;
+    padding: 0 0 260px 0;
     position: relative;
 }
 
 .whitespace {
     position: relative;
-    height: 105vh;
+    height: 600px;
     margin: 0;
     background-size: cover;
-    padding-top: 80px;
+    padding: 80px 0 260px 0;
 }
 
 body {
@@ -177,7 +178,7 @@ p {
     width: 100%;
     position: absolute;
     height: 40%;
-    bottom: 160px;
+    bottom: 10%;
 }
 
 .events{
@@ -279,8 +280,19 @@ p {
     color: #777;
 }
 
+#quote_container {
+    clear: both;
+    padding: 10% 0;
+    width: 100%;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #777;
+}
+
 #excitement_container {
-    background: url("108.png") no-repeat 50% 80%;
+    background: url("106.png") no-repeat 50% 80%;
     height:     350px;
     color: #fff;
     width: 100%;
@@ -288,5 +300,4 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    clear: both;
 }
