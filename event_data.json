@@ -1,0 +1,24 @@
+{
+	"success": 1,
+	"data": [{
+		"event_name": "Ride To Jalori Pass",
+		"event_image": "",
+		"event_start_date": "",
+		"event_end_date": "",
+		"event_start_time": "",
+		"event_end_time": "",
+		"event_html": "",
+		"event_title": "",
+		"total_kms": ""
+	}, {
+		"event_name": "Ride To Chopta",
+		"event_image": "",
+		"event_start_date": "",
+		"event_end_date": "",
+		"event_start_time": "",
+		"event_end_time": "",
+		"event_html": "",
+		"event_title": "",
+		"total_kms": ""
+	}]
+}
