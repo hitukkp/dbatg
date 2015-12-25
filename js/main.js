@@ -13,9 +13,9 @@ function create_event_html( raw_data ){
 	var tempHtml = '';
 	for(var i=0 ; i<raw_data.length; i++){
 		console.log(raw_data[i]);
-		tempHtml += '<div class="events"><div class="ride_name">'+raw_data[i].event_title+'</div>';
-		tempHtml +=  '<div class="ride_picture"><img src="'+raw_data[i].event_image+'"></div>';
-		tempHtml +=  '<div class="ride_date">'+raw_data[i].event_date_duration+'</div></div>'
+		tempHtml += '<div class="events"><img src="'+raw_data[i].event_image+'">';
+		tempHtml += '<div class="ride_name">'+raw_data[i].event_title+'</div>';
+		tempHtml += '<div class="ride_date">'+raw_data[i].event_date_duration+'</div></div>'
 	}
 	var htmldata = tempHtml;
 	return htmldata;
