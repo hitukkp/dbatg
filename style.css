@@ -254,7 +254,7 @@ p {
 #about_us_group_image {
     height: 400px;
     width: 100%;
-    background: url("grp-logo.jpg");
+    background: #eee url("grp-logo.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     -moz-background-size: contain;
