@@ -2,23 +2,23 @@
 	"success": 1,
 	"data": [{
 		"event_name": "Ride To Jalori Pass",
-		"event_image": "",
-		"event_start_date": "",
-		"event_end_date": "",
-		"event_start_time": "",
-		"event_end_time": "",
+		"event_image": "jalori-pass.jpg",
+		"event_start_date": "17-Dec-2015",
+		"event_end_date": "20-Dec-2015",
+		"event_start_time": "6:00/17-Dec-2015",
+		"event_end_time": "23:00/20-Dec-2015",
 		"event_html": "",
-		"event_title": "",
-		"total_kms": ""
+		"event_title": "Ride To Jalori Pass",
+		"total_kms": "1200"
 	}, {
 		"event_name": "Ride To Chopta",
-		"event_image": "",
-		"event_start_date": "",
-		"event_end_date": "",
-		"event_start_time": "",
-		"event_end_time": "",
+		"event_image": "jalori-pass.jpg",
+		"event_start_date": "17-Dec-2015",
+		"event_end_date": "20-Dec-2015",
+		"event_start_time": "6:00/17-Dec-2015",
+		"event_end_time": "23:00/20-Dec-2015",
 		"event_html": "",
-		"event_title": "",
-		"total_kms": ""
+		"event_title": "Ride To Jalori Pass",
+		"total_kms": "1200"
 	}]
 }
