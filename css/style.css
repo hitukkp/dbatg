@@ -11,7 +11,7 @@ html {
 }
 
 #img1 {
-    background: url("2.jpg") 50% 0 no-repeat fixed;
+    background: url("../img/web_images/cover.jpg") 50% 0 no-repeat fixed;
     color: #fff;
     height: 600px;
     margin: 0;
@@ -63,7 +63,7 @@ p {
 }
 
 #united {
-    background: url('united.png') no-repeat;
+    background: url('../img/web_images/united.png') no-repeat;
     margin-top: 200px;
     width: 140px;
     height: 124px;
@@ -80,14 +80,14 @@ p {
 }
 
 #divider {
-    background: url('divider.png') no-repeat;
+    background: url('../img/web_images/divider.png') no-repeat;
     width: 300px;
     height: 35px;
     margin: 0px auto 27px auto;
 }
 
 #ribbon {
-    background: url('ribbon.png') no-repeat;
+    background: url('../img/web_images/ribbon.png') no-repeat;
     width: 251px;
     height: 48px;
     margin: 0 auto;
@@ -152,7 +152,7 @@ p {
 }
 
 #menu_icon {
-    background: url('menu.png') no-repeat;
+    background: url('../img/web_images/menu.png') no-repeat;
     position: fixed;
     right: 10px;
     top: 20px;
@@ -207,7 +207,7 @@ p {
     display:table-cell;
     height: 55px;
     width: 55px;
-    background: url("fb-icon.png") 50% 0 no-repeat ;
+    background: url("../img/web_images/fb-icon.png") 50% 0 no-repeat ;
     background-size: contain;
     border-radius: 100%;
 }
@@ -216,7 +216,7 @@ p {
     display:table-cell;
     height: 55px;
     width: 55px;
-    background: url("insta-icon.png") 50% 0 no-repeat ;
+    background: url("../img/web_images/insta-icon.png") 50% 0 no-repeat ;
     background-size: contain;
     border-radius: 100%;
 }
@@ -255,7 +255,7 @@ p {
 #about_us_group_image {
     height: 400px;
     width: 100%;
-    background: #eee url("grp-logo.jpg");
+    background: #eee url("../img/web_images/grp-logo.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     -moz-background-size: contain;
@@ -290,7 +290,7 @@ p {
 }
 
 #excitement_container {
-    background: url("106.png") no-repeat 50% 80%;
+    background: url("../img/web_images/106.png") no-repeat 50% 80%;
     height:     350px;
     color: #fff;
     width: 100%;
