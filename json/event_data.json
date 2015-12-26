@@ -17,7 +17,7 @@
 	}, {
 		"event_id": "2",
 		"event_name": "Ride To Chopta",
-		"event_image": "http://dbatg.com/img/event_images/jalori-pass.jpg",
+		"event_image": "http://dbatg.com/img/event_images/chopta.jpg",
 		"event_start_date": "17-Dec-2015",
 		"event_end_date": "20-Dec-2015",
 		"event_start_time": "6:00/17-Dec-2015",
@@ -30,8 +30,8 @@
 		"event_url": "http://dbatg.com/event_details.html"
 	}, {
 		"event_id": "3",
-		"event_name": "Ride To Chopta",
-		"event_image": "http://dbatg.com/img/event_images/jalori-pass.jpg",
+		"event_name": "Ride To Tip Top",
+		"event_image": "http://dbatg.com/img/event_images/tip-top.jpg",
 		"event_start_date": "17-Dec-2015",
 		"event_end_date": "20-Dec-2015",
 		"event_start_time": "6:00/17-Dec-2015",
