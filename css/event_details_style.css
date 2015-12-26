@@ -8,6 +8,23 @@ html {
     -webkit-text-size-adjust:100%
 }
 
+/*header{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 22222;
+    width: 100%;
+    opacity: 1;
+    font-size: 40px;
+    font-family: "Wellfleet";
+    color: black;
+}
+
+header img{
+    height: 40px;
+    width: 40px;
+}*/
+
 body {
 	margin: 0;
 }

@@ -108,7 +108,7 @@ p {
     position: relative;
 }
 
-#navigation {
+/*#navigation {
 	top: 0px;
 	height: 90%;
 	position: fixed;
@@ -152,7 +152,7 @@ p {
 	transform: scale(1.02); 
 }
 
-/*#menu_icon {
+#menu_icon {
     background: url('../img/web_images/menu.png') no-repeat;
     position: fixed;
     right: 10px;
@@ -175,14 +175,14 @@ p {
 }
 
 #body_content {
-    width: 90%;
+    width: 95%;
     height: 60%;
     margin: 0px auto;
     text-align: center;
 }
 
 .events{
-    height: 80%;
+    height: 85%;
     width: 29%;
     display: inline-block;
     margin: 0px 1.5% 30px 1.5%;
@@ -198,10 +198,6 @@ p {
     font-size: 30px;
     margin: 10px auto;
     color: #777;
-}
-
-.ride_date {
-
 }
 
 .events img{
