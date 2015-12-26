@@ -158,3 +158,39 @@ ul {
     height: 80px;
     background-color: #222;
 }
+
+.follow_us{
+    background: #eee;
+    padding: 0px 0 50px 0;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.follow_us_header{
+    text-align: center;
+    font-size: 22px;
+}
+
+.social_icons {
+    display:table;
+    margin: 0 auto;
+    border-spacing: 20px;
+}
+
+.icon-youtube {
+    display:table-cell;
+    height: 55px;
+    width: 55px;
+    background: url("../img/web_images/fb-icon.png") 50% 0 no-repeat ;
+    background-size: contain;
+    border-radius: 100%;
+}
+
+.icon-instagram {
+    display:table-cell;
+    height: 55px;
+    width: 55px;
+    background: url("../img/web_images/insta-icon.png") 50% 0 no-repeat ;
+    background-size: contain;
+    border-radius: 100%;
+}

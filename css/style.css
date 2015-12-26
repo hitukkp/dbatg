@@ -251,22 +251,22 @@ p {
 }
 
 .about_us_container {
-    height: 480px;
-    width: 65%;
+    height: 75%;
+    width: 75%;
     margin: 2% auto;
-    padding: 2% 6% 4% 6%;
+    padding: 1%;
     border: 2px solid #FAFAFA;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
 }
 
 #about_main_container{
+    height: 600px;
     width: 100%;
-    padding: 2% 0%;
+    padding-top: 2%;
     background-color: #eee;
 }
 
 .about_us_image_container {
-    padding-top: 5%;
     padding-left: 5%;
     width: 30%;
     float: left;
@@ -321,15 +321,16 @@ p {
 }
 
 #whoweare{
-    height: 650px;
+    height: 500px;
     background-color: #fff;
     width: 100%;
+    padding: 5% 0;
 }
 
 #member_details{
-    width: 65%;
-    height: 80%;
-    margin: 6% auto;
+    width: 75%;
+    height: 95%;
+    margin: 0 auto;
     border: 2px solid #FAFAFA;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
 }
@@ -340,7 +341,7 @@ p {
 }
 
 #who_we_are_group_image {
-    height: 520px;
+    height: 475px;
     width: 100%;
     background: #eee url("../img/web_images/who_we_are.jpg");
     background-repeat: no-repeat;
