@@ -14,8 +14,7 @@ function create_event_html( raw_data ){
 		localStorage.removeItem('event_'+raw_data[i].event_id);
 		tempHtml += '<div class="events"><img src="'+raw_data[i].event_image+'">';
 		tempHtml += '<a href="'+raw_data[i].event_url+'?event_id='+raw_data[i].event_id+'">';
-		tempHtml += '<div class="ride_name">'+raw_data[i].event_name+'</div>';
-		tempHtml += '<div class="ride_date">'+raw_data[i].event_date_duration+'</div></div>'
+		tempHtml += '<div class="ride_name">'+raw_data[i].event_name+'</div></div>';
 		localStorage.setItem('event_'+raw_data[i].event_id, JSON.stringify(raw_data[i])); 
 	}
 	var htmldata = tempHtml;
