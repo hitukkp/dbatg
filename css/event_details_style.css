@@ -46,7 +46,7 @@ body {
 .time_icon {
 	min-width: 6%;
 	margin-left: 25%;
-	background: url("time_icon.png") no-repeat 90% 50%;
+	background: url("../img/web_images/time_icon.png") no-repeat 90% 50%;
     height: 50px;
     color: #fff;
     -webkit-background-size: contain;
