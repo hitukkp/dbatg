@@ -195,6 +195,7 @@ p {
     border: 2px solid #FAFAFA;
     padding: 8px 5px 0px 5px;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    text-decoration: none;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
@@ -434,6 +435,7 @@ p {
 
 #know_us {
     font-family: "Wellfleet";
+    color: #777;
     font-weight: normal;
     font-size: 25px;
     text-align: center;
@@ -455,4 +457,8 @@ p {
     #know_us{
         margin: 10% 30%;
     }
+}
+
+a {
+    text-decoration: none;
 }
