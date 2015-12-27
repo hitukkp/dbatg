@@ -1,7 +1,7 @@
 <style type="text/css">
 #navigation {
     top: 18px;
-    height: 80%;
+    height: 500px;
     position: fixed;
     margin-top: 0px;
     right: 25px;
@@ -11,6 +11,13 @@
     width: 18%;
     transform: translateX(125%);
     transition: all .5s;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #navigation {
+        height: 400px;
+        width: 28%;
+    }
 }
 
 #main_navigation {
@@ -56,6 +63,13 @@
     margin: 0 auto;
     display: block;
     z-index: 1;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #menu_icon {
+        background: url('../img/web_images/menu_32.png') no-repeat;
+        width: 60px;
+    }
 }
 
 #menu_icon:hover > #navigation{
