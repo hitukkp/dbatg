@@ -5,22 +5,29 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 var event_id = getParameterByName('event_id');
-var event_values = localStorage.getItem('event_'+event_id);
-var event_details = JSON.parse(event_values);
+var url = '/json/'+event_id+'.json';
 
-var event_content = document.getElementById('event_content');
-event_content.innerHTML = event_details.event_html;
+$.ajax({
+	url: url,
+	type: 'GET',
+	success: function(data){
+		event_details = data.data[0];
 
-var total_distance = document.getElementById('total_distance');
-total_distance.innerHTML = event_details.total_kms;
+		var event_content = document.getElementById('event_content');
+		event_content.innerHTML = event_details.event_html;
 
-var date_duration = document.getElementById('date_duration');
-date_duration.innerHTML = event_details.event_date_duration;
+		var total_distance = document.getElementById('total_distance');
+		total_distance.innerHTML = event_details.total_kms;
 
-var time_duration = document.getElementById('time_duration');
-time_duration.innerHTML = event_details.event_time_duration;
+		var date_duration = document.getElementById('date_duration');
+		date_duration.innerHTML = event_details.event_date_duration;
 
-var event_title = document.getElementById('event_title_h2');
-event_title.innerHTML = event_details.event_name;
+		var time_duration = document.getElementById('time_duration');
+		time_duration.innerHTML = event_details.event_time_duration;
 
-document.getElementById("event_main_cover_img").src=event_details.event_image;
+		var event_title = document.getElementById('event_title_h2');
+		event_title.innerHTML = event_details.event_name;
+
+		document.getElementById("event_main_cover_img").src=event_details.event_image;
+	}
+});
