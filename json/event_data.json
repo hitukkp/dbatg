@@ -3,17 +3,17 @@
 	"data": [{
 		"event_id": "1",
 		"event_name": "Ride To Jalori Pass",
-		"event_image": "http://dbatg.com/img/event_images/jalori-pass.jpg",
-		"event_url": "http://dbatg.com/event_details.html"
+		"event_image": "img/event_images/jalori-pass.jpg",
+		"event_url": "event_details.html"
 	}, {
 		"event_id": "2",
 		"event_name": "Ride To Chopta",
-		"event_image": "http://dbatg.com/img/event_images/chopta.jpg",
-		"event_url": "http://dbatg.com/event_details.html"
+		"event_image": "img/event_images/chopta.jpg",
+		"event_url": "event_details.html"
 	}, {
 		"event_id": "3",
 		"event_name": "Ride To Tip Top",
-		"event_image": "http://dbatg.com/img/event_images/tip-top.jpg",
-		"event_url": "http://dbatg.com/event_details.html"
+		"event_image": "img/event_images/tip-top.jpg",
+		"event_url": "event_details.html"
 	}]
 }
