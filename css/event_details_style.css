@@ -35,6 +35,12 @@ body {
 	position: relative;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #cover_container {
+        height: 45%;
+    }
+}
+
 #event_main_cover img {
 	height: 100%;
 	width: 100%;
@@ -51,6 +57,13 @@ body {
 	height: 100px;
 	width: 60%;
 	background-color: #FFF;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #event_title{
+    	width: 75%;
+    	height: 110px;
+    }
 }
 
 #event_date_details {
@@ -101,6 +114,22 @@ body {
 	color: #777;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    .time_icon{
+    	min-width: 8%;
+		margin-left: 16%;
+    }
+    #total_distance{
+    	font-size: 35px;
+    }
+    #time_duration {
+    	font-size: 21px;
+    }
+    #date_duration {
+    	font-size: 27px;
+    }
+}
+
 h2 {
     font-family: "Wellfleet";
     font-weight: bold;
@@ -138,9 +167,28 @@ h5 {
     margin-bottom: 10px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    h2 {
+    	font-size: 50px;
+    }
+    h3{
+    	font-size: 32px;
+    }
+}
+
 #event_content_container {
 	width: 60%;
-	margin-left: 20%;
+	margin-left: 19.9%;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    border-top-width: 0px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #event_content_container{
+    	width: 75%;
+    	margin-left: 13%;
+    }
 }
 
 #event_content {
@@ -166,6 +214,15 @@ ul {
 	margin-top: 0px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    p{
+    	font-size: 15px;
+    }
+    li{
+    	font-size: 15px;
+    }
+ }
+
 .contact_details{
 	margin-bottom: 50px;
 	padding: 0 5%
@@ -177,6 +234,7 @@ ul {
 }
 
 .follow_us{
+	margin-top: 10%;
     background: #eee;
     padding: 0px 0 50px 0;
     padding-top: 30px;
