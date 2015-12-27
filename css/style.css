@@ -13,15 +13,21 @@ html {
 #img1 {
     background: url("../img/web_images/cover.jpg") 50% 0 no-repeat fixed;
     color: #fff;
-    height: 600px;
+    min-height: 600px;
     margin: 0;
     background-size: cover;
     padding: 200px 0 260px 0;
     position: relative;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #img1 {
+        min-height: 400px;
+    }
+}
+
 .whitespace {
-    height: 600px;
+    min-height: 600px;
     margin: 0;
     margin-bottom: 35px;
     background-size: cover;
@@ -191,6 +197,13 @@ p {
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    .events {
+        height: 85%;
+        width: 80%;
+    }
+}
+
 .ride_name{
     text-align: center;
     font-family: 'Goudy Bookletter 1911', serif;
@@ -263,29 +276,51 @@ p {
 }
 
 .about_us_container {
-    height: 75%;
     width: 75%;
     margin: 2% auto;
     padding: 1%;
     border: 2px solid #FAFAFA;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    overflow: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    #aout_us_header {
+        width: 100%;
+        margin: 1% 2%;
+        text-align: center;
+    }
 }
 
 #about_main_container{
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     padding-top: 2%;
     background-color: #eee;
+    overflow: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #about_main_container {
+        padding: 5% 0;
+    }
 }
 
 .about_us_image_container {
-    padding-left: 5%;
+    padding-left: 4%;
     width: 30%;
     float: left;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    .about_us_image_container {
+        width: 100%;
+        padding-left: 0%;
+    }
+}
+
 #about_us_group_image {
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     background: #eee url("../img/web_images/dbatg-transparent-logo.png");
     background-repeat: no-repeat;
@@ -321,6 +356,12 @@ p {
     color: #777;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #quote_container {
+        margin: 10% auto 2% auto;
+    }
+}
+
 #excitement_container {
     background: url("../img/web_images/106.png") no-repeat 50% 80%;
     height: 350px;
@@ -332,28 +373,36 @@ p {
     background-size: cover;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #excitement_container {
+        background: url("../img/web_images/106.png") no-repeat 10% 80%;
+        height: 550px;
+    }
+}
+
 #whoweare{
-    height: 500px;
     background-color: #fff;
     width: 100%;
     padding: 5% 0;
+    overflow: auto;
 }
 
 #member_details{
     width: 75%;
-    height: 95%;
     margin: 0 auto;
     border: 2px solid #FAFAFA;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    overflow: auto;
 }
 
 .who_we_are_image_container {
+    margin: 5px;
     width: 35%;
     float: left;
 }
 
 #who_we_are_group_image {
-    height: 475px;
+    height: 495px;
     width: 100%;
     background: #eee url("../img/web_images/who_we_are.jpg");
     background-repeat: no-repeat;
@@ -365,7 +414,7 @@ p {
 }
 
 #who_we_are_header {
-    width: 61%;
+    width: 60%;
     margin: 0 2%;
     float: left;
 }
@@ -390,5 +439,20 @@ p {
     text-align: center;
     margin: 10% 38%;
     border: 2px solid #FAFAFA;
-    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    .who_we_are_image_container {
+        width: 100%;
+    }
+    #who_we_are_header{
+        width: 100%;
+    }
+    #whoweare{
+        margin: 15% auto 8% auto;
+    }
+    #know_us{
+        margin: 10% 30%;
+    }
 }
