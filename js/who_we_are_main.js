@@ -23,3 +23,6 @@ function create_event_html( raw_data ){
 
 	return htmldata;
 }
+
+$("#footer_content").load("../footer.html");
+$("#header_container").load("../menu.html");

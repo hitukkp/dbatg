@@ -31,3 +31,6 @@ $.ajax({
 		document.getElementById("event_main_cover_img").src=event_details.event_image;
 	}
 });
+
+$("#footer_content").load("../footer.html");
+$("#header_container").load("../menu.html");

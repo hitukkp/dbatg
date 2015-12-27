@@ -30,3 +30,6 @@ $(".know_us").click(function() {
   window.location = $(this).find("a").attr("href"); 
   return false;
 });
+
+$("#footer_content").load("../footer.html");
+$("#header_container").load("../menu.html");
