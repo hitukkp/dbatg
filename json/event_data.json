@@ -7,12 +7,7 @@
 		"event_url": "event_details.html"
 	},{
 		"event_id": "2",
-		"event_name": "Ride To Jalori Pass",
-		"event_image": "img/event_images/jalori-pass.jpg",
-		"event_url": "event_details.html"
-	}, {
-		"event_id": "3",
-		"event_name": "Ride To Chopta",
+		"event_name": "GujruGari Caves",
 		"event_image": "img/event_images/chopta.jpg",
 		"event_url": "event_details.html"
 	}]
