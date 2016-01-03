@@ -3,7 +3,7 @@
 	"data": [{
 		"member_id" : "1",
 		"member_name" : "Pramod Chauhan (PC)",
-		"member_details": "Pramod Chauhan AKA PC is Alpha among all admin An MBA graduate born in Palwal , Haryana and bought up in Deharadoon. PC is a example of patience, brotherhood, can do spirit in all scenarios. He inspires all riders of all age group for conquering toughest phases during the rides. He is always full of enthusiasm, energy and a joyful nature. Pramod owns Krazima R and KTM DUKE 390 bike.  <br/><br/> “PC is soul of DABTG, this little devil can drive any motorbike in any scenario. I have seen him many times driving bikes of other fellow riders who would have given up the ride in between due to mechanical issues came during the rides. But Pramod certainly do manage the problems and seek that rider must complete his ride and nobody left behind” - Aniken ",
+		"member_details": "Pramod Chauhan AKA PC is Alpha among all admin An MBA graduate born and brought in APS DAGSHAI, Solan, HP. PC is a example of patience, brotherhood, can do spirit in all scenarios. He inspires all riders of all age group for conquering toughest phases during the rides. He is always full of enthusiasm, energy and a joyful nature. Pramod owns Krazima R and KTM DUKE 390 bike.  <br/><br/> “PC is soul of DABTG, this little devil can drive any motorbike in any scenario. I have seen him many times driving bikes of other fellow riders who would have given up the ride in between due to mechanical issues came during the rides. But Pramod certainly do manage the problems and seek that rider must complete his ride and nobody left behind” - Aniken ",
 		"is_admin": "1",
 		"member_from": "March 2012",
 		"total_rides": "50",
@@ -12,7 +12,7 @@
 	},{
 		"member_id" : "2",
 		"member_name" : "Ishu Negi",
-		"member_details": "Born and bought  in Deharadoon. Ishu is another DBATG young  memeber who takes motorbiking as passion. He use to be a reckie rider during rides when we search for camping sites at the end of the day. Ishu is one the fastest rider of DBATG.  He Own Duke 200 and Karizma R. <br/> <br/> He is the Fastest Biker in DBATG. \"CATCH ME IF YOU CAN\" -Aniken",
+		"member_details": "Born and brought up in Deharadoon. Ishu is another DBATG young  memeber who takes motorbiking as passion. He use to be a reckie rider during rides when we search for camping sites at the end of the day. Ishu is one the fastest rider of DBATG.  He Own Duke 200 and Karizma R. <br/> <br/> He is the Fastest Biker in DBATG. \"CATCH ME IF YOU CAN\" -Aniken",
 		"is_admin": "1",
 		"member_from": "March 2012",
 		"total_rides": "3",
@@ -30,7 +30,7 @@
 	},{
 		"member_id" : "4",
 		"member_name" : "Yash Jha (Daku)",
-		"member_details": "Yash Jha AKA Daku Daddy , born and bought in Jaipur. Yash is running his own Automobile Graphic design studio in jaipur and is one of the CRAZIEST motorbike rider of DBATG. He is one of the youngest member in admins  and take rides with great passion and enthusiasam. He owns a Ktm Duke 200.<br/><br/> Give any bike to Yash, he can ride it like a hellboy and at the end bike will be left in peices. -Aniken",
+		"member_details": "Yash Jha AKA Daku Daddy , born and brought up in Jaipur. Yash is running his own Automobile Graphic design studio in jaipur and is one of the CRAZIEST motorbike rider of DBATG. He is one of the youngest member in admins  and take rides with great passion and enthusiasam. He owns a Ktm Duke 200.<br/><br/> Give any bike to Yash, he can ride it like a hellboy and at the end bike will be left in peices. -Aniken",
 		"is_admin": "1",
 		"member_from": "December 2013",
 		"total_rides": "20",
@@ -39,7 +39,7 @@
 	},{
 		"member_id" : "5",
 		"member_name" : "Manish Rastogi",
-		"member_details": "Manish AKA Bear gryls of DBATG , is a profession charted accountant , born and bought up in Delhi NCR. Manish is a very distinguish rider ,  he use to do sometimes solo rides also where he camp , cook and move to next destination. Manish is huge fan of Bear gryls and try to learn and implent his survivor techniques while rides. Sweet in nature , and support each member in group in each possible manner. He has his own collection of camp knifes. He owns Hero impulse with customise CBZ extreme Engine.",
+		"member_details": "Manish AKA Bear gryls of DBATG , is a Profession Charted Accountant , born and brought up in Delhi NCR. Manish is a very distinguish rider ,  he use to do sometimes solo rides also where he camp , cook and move to next destination. Manish is huge fan of Bear gryls and try to learn and implent his survivor techniques while rides. Sweet in nature , and support each member in group in each possible manner. He has his own collection of camp knifes. He owns Hero impulse with customise CBZ extreme Engine.",
 		"is_admin": "1",
 		"member_from": "January 2014",
 		"total_rides": "10",
@@ -54,14 +54,5 @@
 		"total_rides": "30",
 		"post" : "Admin",
 		"member_img": "../img/web_images/sandeep.jpg"
-	},{
-		"member_id" : "7",
-		"member_name" : "Madhusudan Ghosh (Maddy)",
-		"member_details": "Madhusudan AKA MADDY the Skipper  born and bought up in DELHI NCR. Maddy is the YOUNGEST member of DBATG who is very gentle and of soft nature. Loves all kind of bikes, support all members in all possible ways. Maddy is keen of photo graphy  and seeks Sundup Gujjar and Yogesh Yarkar his idol in motorbike photography.  He is motivated , full of energy. Maddy owns Honda CBR 150R. <br/> <br/> \" Maddy looks after each member with great respect and love, many of times it happens he has taken care of other members bike as his own bike in their absence, Apna Bengali choto bhai\"",
-		"is_admin": "0",
-		"member_from": "January 2014",
-		"total_rides": "20",
-		"post" : "The ShooTer",
-		"member_img": "../img/web_images/madhu.jpg"
 	}]
 }
