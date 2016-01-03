@@ -99,7 +99,7 @@ body {
 }
 
 .team {
-    width: 55%;
+    width: 90%;
 }
 
 .pin {
@@ -165,7 +165,6 @@ body {
 
 .pin h3{
     color: #333;
-    margin: 4px 0;
     font-family: "Wellfleet";
     font-weight: normal;
     font-size: 20px;
@@ -173,12 +172,13 @@ body {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 5px;
-    width: 28%;
-    margin-left: 35%
+    width: 60%;
+    margin: 4px auto;
 }
 
 .pin h4 {
     margin: 4px 0;
+    font-size: 15px;
     font-family: Arial, sans-serif;
     color: #333;
 }
