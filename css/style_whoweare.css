@@ -163,6 +163,12 @@ body {
     opacity: 0.4;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    #columns:hover .pin:not(:hover) {
+       opacity: 1;
+    }
+}
+
 .pin h3{
     color: #333;
     font-family: "Wellfleet";
